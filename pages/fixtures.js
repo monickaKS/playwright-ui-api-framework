@@ -9,8 +9,9 @@ export const test = base.extend({
   },
 
   WorkSpacePage: async ({ page }, use) => {
-    await page.goto("/");
+    await page.goto("https://letcode.in");
     await page.getByRole('link', { name: 'Work-Space' }).click();
+    await expect(page).toHaveTitle("Workspace | LetCode with Koushik");
     const workspace = new Workspace({ page });
     await use(workspace);
   },

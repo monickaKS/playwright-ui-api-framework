@@ -1,0 +1,301 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic:
+    - complementary [ref=e4]:
+      - navigation "Sidepanel" [ref=e5]:
+        - generic [ref=e6]:
+          - link "client brand banner" [ref=e7] [cursor=pointer]:
+            - /url: https://www.orangehrm.com/
+            - img "client brand banner" [ref=e9]
+          - text: 
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - generic [ref=e12]:
+              - textbox "Search" [ref=e15]
+              - button "" [ref=e16] [cursor=pointer]:
+                - generic [ref=e17]: 
+            - separator [ref=e18]
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Admin" [ref=e21] [cursor=pointer]:
+                - /url: /web/index.php/admin/viewAdminModule
+                - generic [ref=e24]: Admin
+            - listitem [ref=e25]:
+              - link "PIM" [ref=e26] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewPimModule
+                - generic [ref=e40]: PIM
+            - listitem [ref=e41]:
+              - link "Leave" [ref=e42] [cursor=pointer]:
+                - /url: /web/index.php/leave/viewLeaveModule
+                - generic [ref=e45]: Leave
+            - listitem [ref=e46]:
+              - link "Time" [ref=e47] [cursor=pointer]:
+                - /url: /web/index.php/time/viewTimeModule
+                - generic [ref=e53]: Time
+            - listitem [ref=e54]:
+              - link "Recruitment" [ref=e55] [cursor=pointer]:
+                - /url: /web/index.php/recruitment/viewRecruitmentModule
+                - generic [ref=e61]: Recruitment
+            - listitem [ref=e62]:
+              - link "My Info" [ref=e63] [cursor=pointer]:
+                - /url: /web/index.php/pim/viewMyDetails
+                - generic [ref=e69]: My Info
+            - listitem [ref=e70]:
+              - link "Performance" [ref=e71] [cursor=pointer]:
+                - /url: /web/index.php/performance/viewPerformanceModule
+                - generic [ref=e79]: Performance
+            - listitem [ref=e80]:
+              - link "Dashboard" [ref=e81] [cursor=pointer]:
+                - /url: /web/index.php/dashboard/index
+                - generic [ref=e84]: Dashboard
+            - listitem [ref=e85]:
+              - link "Directory" [ref=e86] [cursor=pointer]:
+                - /url: /web/index.php/directory/viewDirectory
+                - generic [ref=e89]: Directory
+            - listitem [ref=e90]:
+              - link "Maintenance" [ref=e91] [cursor=pointer]:
+                - /url: /web/index.php/maintenance/viewMaintenanceModule
+                - generic [ref=e95]: Maintenance
+            - listitem [ref=e96]:
+              - link "Claim" [ref=e97] [cursor=pointer]:
+                - /url: /web/index.php/claim/viewClaimModule
+                - img [ref=e100]
+                - generic [ref=e104]: Claim
+            - listitem [ref=e105]:
+              - link "Buzz" [ref=e106] [cursor=pointer]:
+                - /url: /web/index.php/buzz/viewBuzz
+                - generic [ref=e109]: Buzz
+    - banner [ref=e110]:
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - text: 
+          - heading "Dashboard" [level=6] [ref=e114]
+        - link "Upgrade" [ref=e116]:
+          - /url: https://orangehrm.com/open-source/upgrade-to-advanced
+          - button "Upgrade" [ref=e117] [cursor=pointer]: Upgrade
+        - list [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125] [cursor=pointer]:
+              - img "profile picture" [ref=e126]
+              - paragraph [ref=e127]: Emily Gulgowski
+              - generic [ref=e128]: 
+      - navigation "Topbar Menu" [ref=e130]:
+        - list [ref=e131]:
+          - button "" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: 
+  - generic [ref=e135]:
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - generic [ref=e141]:
+          - generic [ref=e142]: 
+          - paragraph [ref=e143]: Time at Work
+        - separator [ref=e144]
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - img "profile picture" [ref=e149]
+            - generic [ref=e150]:
+              - paragraph [ref=e151]: Punched Out
+              - paragraph [ref=e152]: "Punched Out: Today at 09:52 PM (GMT 5.5)"
+          - generic [ref=e153]:
+            - generic [ref=e154]: 8h 0m Today
+            - button "" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+          - separator [ref=e157]
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - paragraph [ref=e160]: This Week
+              - paragraph [ref=e161]: May 11 - May 17
+            - generic [ref=e162]:
+              - generic [ref=e163]: 
+              - paragraph [ref=e164]: 8h 0m
+      - generic [ref=e168]:
+        - generic [ref=e170]:
+          - generic [ref=e171]: 
+          - paragraph [ref=e172]: My Actions
+        - separator [ref=e173]
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - button [ref=e177] [cursor=pointer]
+            - paragraph [ref=e183] [cursor=pointer]: (1) Pending Self Review
+          - generic [ref=e184]:
+            - button [ref=e185] [cursor=pointer]
+            - paragraph [ref=e194] [cursor=pointer]: (1) Candidate to Interview
+      - generic [ref=e196]:
+        - generic [ref=e198]:
+          - generic [ref=e199]: 
+          - paragraph [ref=e200]: Quick Launch
+        - separator [ref=e201]
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - button "Assign Leave" [ref=e205] [cursor=pointer]
+            - generic "Assign Leave" [ref=e208]:
+              - paragraph [ref=e209]: Assign Leave
+          - generic [ref=e210]:
+            - button "Leave List" [ref=e211] [cursor=pointer]
+            - generic "Leave List" [ref=e218]:
+              - paragraph [ref=e219]: Leave List
+          - generic [ref=e220]:
+            - button "Timesheets" [ref=e221] [cursor=pointer]
+            - generic "Timesheets" [ref=e227]:
+              - paragraph [ref=e228]: Timesheets
+          - generic [ref=e229]:
+            - button "Apply Leave" [ref=e230] [cursor=pointer]
+            - generic "Apply Leave" [ref=e233]:
+              - paragraph [ref=e234]: Apply Leave
+          - generic [ref=e235]:
+            - button "My Leave" [ref=e236] [cursor=pointer]
+            - generic "My Leave" [ref=e241]:
+              - paragraph [ref=e242]: My Leave
+          - generic [ref=e243]:
+            - button "My Timesheet" [ref=e244] [cursor=pointer]
+            - generic "My Timesheet" [ref=e247]:
+              - paragraph [ref=e248]: My Timesheet
+      - generic [ref=e250]:
+        - generic [ref=e252]:
+          - generic [ref=e253]: 
+          - paragraph [ref=e254]: Buzz Latest Posts
+        - separator [ref=e255]
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic [ref=e259] [cursor=pointer]:
+              - img "profile picture" [ref=e261]
+              - generic [ref=e262]:
+                - paragraph [ref=e263]: Emily Charles Gulgowski
+                - paragraph [ref=e264]: 2026-11-05 01:51 PM
+            - separator [ref=e265]
+            - paragraph [ref=e266]: Resident Evil Reuiem (FAV GAME)
+            - iframe [ref=e268]:
+              - generic [active] [ref=f1e1]:
+                - generic "YouTube Video Player" [ref=f1e3]
+                - generic [ref=f1e5]:
+                  - generic:
+                    - generic:
+                      - button "Play video" [ref=f1e10] [cursor=pointer]:
+                        - generic [ref=f1e13]:
+                          - img
+                      - button "Hide player controls" [ref=f1e14] [cursor=pointer]
+                      - generic [ref=f1e21]:
+                        - generic [ref=f1e22]:
+                          - 'link "Resident Evil Requiem : RTX 5080 16GB ( 4K Path Tracing ON / DLSS ON )" [ref=f1e23] [cursor=pointer]':
+                            - /url: https://www.youtube.com/watch?v=HHx8G9_layQ
+                          - link "MykePlay" [ref=f1e24] [cursor=pointer]:
+                            - /url: /channel/UCUzra0d8dm3Qrl6y-i6pB3Q
+                            - generic [ref=f1e25]: MykePlay
+                        - generic [ref=f1e26]:
+                          - button "thumbnail-image" [ref=f1e27] [cursor=pointer]:
+                            - img "thumbnail-image" [ref=f1e28]
+                          - generic [ref=f1e30]:
+                            - generic: MykePlay
+                            - generic: 178K subscribers
+          - generic [ref=e269]:
+            - generic [ref=e270] [cursor=pointer]:
+              - img "profile picture" [ref=e272]
+              - generic [ref=e273]:
+                - paragraph [ref=e274]: Emily Charles Gulgowski
+                - paragraph [ref=e275]: 2026-11-05 01:49 PM
+            - separator [ref=e276]
+            - iframe [ref=e278]:
+              - generic [active] [ref=f2e1]:
+                - generic "YouTube Video Player" [ref=f2e3]
+                - generic [ref=f2e5]:
+                  - generic:
+                    - generic:
+                      - button "Play video" [ref=f2e10] [cursor=pointer]
+                      - button "Hide player controls" [ref=f2e12] [cursor=pointer]
+                      - generic [ref=f2e19]:
+                        - generic [ref=f2e20]:
+                          - 'link "Resident Evil Requiem : RTX 5080 16GB ( 4K Path Tracing ON / DLSS ON )" [ref=f2e21] [cursor=pointer]':
+                            - /url: https://www.youtube.com/watch?v=HHx8G9_layQ
+                          - link "MykePlay" [ref=f2e22] [cursor=pointer]:
+                            - /url: /channel/UCUzra0d8dm3Qrl6y-i6pB3Q
+                            - generic [ref=f2e23]: MykePlay
+                        - generic [ref=f2e24]:
+                          - button [ref=f2e25] [cursor=pointer]
+                          - generic [ref=f2e27]:
+                            - generic: MykePlay
+                            - generic: 178K subscribers
+          - generic [ref=e279]:
+            - generic [ref=e280] [cursor=pointer]:
+              - img "profile picture" [ref=e282]
+              - generic [ref=e283]:
+                - paragraph [ref=e284]: Emily Charles Gulgowski
+                - paragraph [ref=e285]: 2020-08-10 09:08 AM
+            - separator [ref=e286]
+            - paragraph [ref=e287]: "Hi All; Linda has been blessed with a baby boy! Linda: With love, we welcome your dear new baby to this world. Congratulations!"
+          - generic [ref=e288]:
+            - generic [ref=e289] [cursor=pointer]:
+              - img "profile picture" [ref=e291]
+              - generic [ref=e292]:
+                - paragraph [ref=e293]: Sania Shaheen
+                - paragraph [ref=e294]: 2020-08-10 09:08 AM
+            - separator [ref=e295]
+            - paragraph [ref=e296]: "World Championship: What makes the perfect snooker player? Mark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays. John Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight. Barry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line. Honourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski."
+          - generic [ref=e297]:
+            - generic [ref=e298] [cursor=pointer]:
+              - img "profile picture" [ref=e300]
+              - generic [ref=e301]:
+                - paragraph [ref=e302]: Rebecca Harmony
+                - paragraph [ref=e303]: 2020-08-10 09:04 AM
+            - separator [ref=e304]
+            - paragraph [ref=e305]: Throwback Thursdays!!
+            - img [ref=e306]
+      - generic [ref=e308]:
+        - generic [ref=e309]:
+          - paragraph [ref=e314]: Employees on Leave Today
+          - generic [ref=e315] [cursor=pointer]: 
+        - separator [ref=e316]
+        - generic [ref=e317]:
+          - generic [ref=e318]:
+            - img "profile picture" [ref=e320]
+            - generic [ref=e321]:
+              - paragraph [ref=e322]: Emily Gulgowski
+              - paragraph [ref=e323]: CAN - FMLA (Half Day - Morning)
+            - paragraph [ref=e324]: "464716"
+          - generic [ref=e325]:
+            - img "profile picture" [ref=e327]
+            - generic [ref=e328]:
+              - paragraph [ref=e329]: 删了 死妈
+              - paragraph [ref=e330]: CAN - Personal
+            - paragraph [ref=e331]: "0422"
+      - generic [ref=e333]:
+        - generic [ref=e335]:
+          - generic [ref=e336]: 
+          - paragraph [ref=e337]: Employee Distribution by Sub Unit
+        - separator [ref=e338]
+        - list [ref=e343]:
+          - listitem [ref=e344] [cursor=pointer]:
+            - generic "Engineering" [ref=e346]
+          - listitem [ref=e347] [cursor=pointer]:
+            - generic "Human Resources" [ref=e349]
+          - listitem [ref=e350] [cursor=pointer]:
+            - generic "Administration" [ref=e352]
+          - listitem [ref=e353] [cursor=pointer]:
+            - generic "Sales & Marketing" [ref=e355]
+          - listitem [ref=e356] [cursor=pointer]:
+            - generic "Client Services" [ref=e358]
+          - listitem [ref=e359] [cursor=pointer]:
+            - generic "Unassigned" [ref=e361]
+      - generic [ref=e363]:
+        - generic [ref=e365]:
+          - generic [ref=e366]: 
+          - paragraph [ref=e367]: Employee Distribution by Location
+        - separator [ref=e368]
+        - list [ref=e373]:
+          - listitem [ref=e374] [cursor=pointer]:
+            - generic "Texas R&D" [ref=e376]
+          - listitem [ref=e377] [cursor=pointer]:
+            - generic "New York Sales Office" [ref=e379]
+          - listitem [ref=e380] [cursor=pointer]:
+            - generic "HQ - CA, USA" [ref=e382]
+          - listitem [ref=e383] [cursor=pointer]:
+            - generic "Unassigned" [ref=e385]
+    - generic [ref=e386]:
+      - paragraph [ref=e387]: OrangeHRM OS 5.8
+      - paragraph [ref=e388]:
+        - text: © 2005 - 2026
+        - link "OrangeHRM, Inc" [ref=e389] [cursor=pointer]:
+          - /url: http://www.orangehrm.com
+        - text: . All rights reserved.
+```

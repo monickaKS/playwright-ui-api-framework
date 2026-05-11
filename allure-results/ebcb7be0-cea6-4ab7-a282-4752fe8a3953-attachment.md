@@ -1,0 +1,98 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Upload and Download" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - heading "Upload" [level=2] [ref=e34]
+            - generic [ref=e35]: No file is uploaded, it's a dummy site for learning.
+            - generic [ref=e37] [cursor=pointer]:
+              - button " Choose a file…" [ref=e38]
+              - generic [ref=e39]:
+                - generic [ref=e41]: 
+                - generic [ref=e42]: Choose a file…
+          - generic [ref=e43]:
+            - heading "Download" [level=2] [ref=e44]
+            - generic [ref=e46] [cursor=pointer]:
+              - button "Download Pdf Download Text" [ref=e47]:
+                - link "Download Excel" [ref=e48]:
+                  - /url: assets/files/sample.xlsx
+              - button "Download Pdf" [ref=e49]:
+                - link "Download Pdf" [ref=e50]:
+                  - /url: assets/files/sample.pdf
+              - button "Download Text" [ref=e51]:
+                - link "Download Text" [ref=e52]:
+                  - /url: assets/files/sample.txt
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: Insight
+            - generic [ref=e60] [cursor=pointer]: 
+          - generic [ref=e62]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e63]:
+              - listitem [ref=e64]: How to download & upload files
+              - listitem [ref=e65]: ChromeOption class
+              - listitem [ref=e66]: SetFileDetector
+          - iframe [ref=e70]:
+            - generic [ref=f15e2]:
+              - link:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+                - img [ref=f15e6] [cursor=pointer]
+              - link "LetCode with Koushik" [ref=f15e7] [cursor=pointer]:
+                - /url: /channel/UCNcnqL0P17hISKlOxTjkJ0g
+              - generic [ref=f15e8]:
+                - button "YouTube" [ref=f15e9] [cursor=pointer]:
+                  - generic "YouTube" [ref=f15e11]
+                - button "43K" [ref=f15e12]
+          - button "Watch tutorial" [ref=e72] [cursor=pointer]
+        - generic [ref=e73]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e75]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e77]:
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - paragraph [ref=e81]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e82]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e84]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e85] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e86] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e87]:
+    
+  - generic [ref=e88]:
+    - generic [ref=e89] [cursor=pointer]:
+      - img [ref=e91]
+      - link "Go to shopping options for Online Practice Workspace" [ref=e93]: Online Practice Workspace
+    - button "Close shopping anchor" [ref=e94]
+```

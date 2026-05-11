@@ -1,4 +1,5 @@
-import {test,expect} from '@playwright/test';
+import {expect} from '@playwright/test';
+import {test} from '../pages/fixtures';
 test ('handle wait alert',async({WorkSpacePage}) =>{
     await expect(WorkSpacePage).toHaveTitle( "Workspace | LetCode with Koushik");
      await WorkSpacePage.getByRole('link',{name : ' Timeout '}).click();
