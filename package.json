@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test:shadow": "npx playwright test tests/ShadowDOM.spec.js",
-    "test:Slider": "npx playwright test tests/Slider.spec.js"
+    "test:Slider": "npx playwright test tests/Slider.spec.js",
+    "test:Window": "npx playwright test tests/Window.spec.js"
   },
   "keywords": [],
   "author": "",

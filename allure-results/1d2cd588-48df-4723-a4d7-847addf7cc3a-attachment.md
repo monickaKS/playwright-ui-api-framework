@@ -1,0 +1,89 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Upload and Download" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e31]:
+          - generic [ref=e33]:
+            - heading "Upload" [level=2] [ref=e34]
+            - generic [ref=e35]: No file is uploaded, it's a dummy site for learning.
+            - generic [ref=e37] [cursor=pointer]:
+              - button " Choose a file…" [ref=e38]
+              - generic [ref=e39]:
+                - generic [ref=e41]: 
+                - generic [ref=e42]: Choose a file…
+          - generic [ref=e43]:
+            - heading "Download" [level=2] [ref=e44]
+            - generic [ref=e46] [cursor=pointer]:
+              - button "Download Pdf Download Text" [ref=e47]:
+                - link "Download Excel" [ref=e48]:
+                  - /url: assets/files/sample.xlsx
+              - button "Download Pdf" [ref=e49]:
+                - link "Download Pdf" [ref=e50]:
+                  - /url: assets/files/sample.pdf
+              - button "Download Text" [ref=e51]:
+                - link "Download Text" [ref=e52]:
+                  - /url: assets/files/sample.txt
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: Insight
+            - generic [ref=e60] [cursor=pointer]: 
+          - generic [ref=e62]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e63]:
+              - listitem [ref=e64]: How to download & upload files
+              - listitem [ref=e65]: ChromeOption class
+              - listitem [ref=e66]: SetFileDetector
+          - iframe [ref=e67]:
+            
+          - button "Watch tutorial" [ref=e69] [cursor=pointer]
+        - generic [ref=e70]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e72]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e74]:
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - paragraph [ref=e78]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e79]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e81]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e82] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e83] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e84]:
+    
+  - generic [ref=e85]:
+    - generic [ref=e86] [cursor=pointer]:
+      - img [ref=e88]
+      - link "Go to shopping options for Playwright Runner Tool" [ref=e90]: Playwright Runner Tool
+    - button "Close shopping anchor" [ref=e91]
+```

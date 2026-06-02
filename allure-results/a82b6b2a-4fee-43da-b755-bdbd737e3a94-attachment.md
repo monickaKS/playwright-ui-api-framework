@@ -1,0 +1,79 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "main navigation" [ref=e3]:
+      - generic [ref=e4]:
+        - link "letcode" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "letcode" [ref=e7]
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "Work-Space" [ref=e10] [cursor=pointer]:
+              - /url: /test
+            - generic [ref=e12] [cursor=pointer]: Products
+            - generic [ref=e14] [cursor=pointer]: Grooming
+            - link "Courses" [ref=e15] [cursor=pointer]:
+              - /url: /courses
+            - link "Contact" [ref=e16] [cursor=pointer]:
+              - /url: /contact
+          - button "" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+    - generic [ref=e23]:
+      - heading "Alert" [level=1] [ref=e26]
+      - generic [ref=e29]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Accept the Alert
+            - button "Simple Alert" [ref=e36] [cursor=pointer]
+          - generic [ref=e37]:
+            - generic [ref=e38]: Dismiss the Alert & print the alert text
+            - button "Confirm Alert" [ref=e40] [cursor=pointer]
+          - generic [ref=e41]:
+            - generic [ref=e42]: Type your name & accept
+            - button "Prompt Alert" [ref=e44] [cursor=pointer]
+          - generic [ref=e45]:
+            - generic [ref=e46]: Sweet alert
+            - button "Modern Alert" [ref=e48] [cursor=pointer]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - paragraph [ref=e53]: Insight
+            - generic [ref=e56] [cursor=pointer]: 
+          - generic [ref=e58]:
+            - text: On completion of this exercise, you can learn the following concepts.
+            - list [ref=e59]:
+              - listitem [ref=e60]: switchTo()
+              - listitem [ref=e61]: accept()
+              - listitem [ref=e62]: dismiss()
+              - listitem [ref=e63]: getText()
+              - listitem [ref=e64]: sendKeys()
+              - listitem [ref=e65]: Sweet Alert
+          - iframe [ref=e66]:
+            
+          - button "Watch tutorial" [ref=e68] [cursor=pointer]
+        - generic [ref=e69]:
+          - generic:
+            - generic:
+              - generic:
+                - insertion
+      - generic [ref=e71]:
+        - generic:
+          - generic:
+            - generic:
+              - insertion
+    - contentinfo [ref=e73]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: LetCode by Koushik Chatterjee
+          - paragraph [ref=e78]: Empowering Test Automation Engineers through learning
+        - paragraph [ref=e80]:
+          - text: © 2025 LetCode | Created by
+          - link "Koushik Chatterjee" [ref=e81] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/ortoni/
+          - text: "&"
+          - link "Bollineni Lakshmi Yaswanth" [ref=e82] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/bollineni-lakshmi-yaswanth-14472a199
+  - iframe [ref=e83]:
+    
+```
