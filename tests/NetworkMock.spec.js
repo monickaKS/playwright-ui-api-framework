@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 const FakePayload = {data:[],message:"No Orders"};
-test("Netwrok Mocking", async ({page}) => {
+test("Network Mocking", async ({page}) => {
 
    
     await page.route("https://rahulshettyacademy.com/api/ecom/order/get-orders-for-customer/*", 

@@ -1,6 +1,6 @@
 import{test,expect,request} from '@playwright/test';
+import {APIUtils} from '../pages/APIUtils';
 
-const payLoad = {userEmail:"monicka0810@gmail.com",userPassword:"Aaradhya@3101"}
 const payloadCart={
     _id: "69eb20fdf86ba51a65825589",
     product: {
@@ -23,21 +23,12 @@ const payloadCart={
 test("API test case", async({page})=>{
      
     const apiContextLogin= await request.newContext();
-    const LoginResponse = await apiContextLogin.post("https://rahulshettyacademy.com/api/ecom/auth/login",
-    {data: payLoad})
-    expect(LoginResponse.ok()).toBeTruthy();
-    const LoginJson = await LoginResponse.json();
-    console.log(LoginJson);
-    const token = await LoginJson.token;
+    const apiUtils = new APIUtils(apiContextLogin);
+    const token = await apiUtils.getToken();
     console.log("Login Token is: " + token);
-   
+     
     await page.goto("https://rahulshettyacademy.com/client");
-    await page.locator("#userEmail").fill("monicka0810@gmail.com");
-    await page.locator("#userPassword").fill("Aaradhya@3101");
-    await page.locator("#login").click();
-    //expect(page.getByText(" Add To Cart").first()).toBeVisible();
-    //await page.getByText(" Add To Cart").first().click();
-    const apiContextCart = await request.newContext({extraHTTPHeaders: {
+       const apiContextCart = await request.newContext({extraHTTPHeaders: {
       Authorization: token,
       'Content-Type': 'application/json'
     }
