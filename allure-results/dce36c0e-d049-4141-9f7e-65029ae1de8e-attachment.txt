@@ -1,0 +1,6 @@
+Login Token is: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OWViMjBmZGY4NmJhNTFhNjU4MjU1ODkiLCJ1c2VyRW1haWwiOiJtb25pY2thMDgxMEBnbWFpbC5jb20iLCJ1c2VyTW9iaWxlIjo5ODg0MDM1NzUxLCJ1c2VyUm9sZSI6ImN1c3RvbWVyIiwiaWF0IjoxNzgwMzkzNDcwLCJleHAiOjE4MTE5NTEwNzB9._30NStG_ipu-VdyXlYMVn8uKVGecEEswjrLfdPtqmRI
+{
+  orders: [ '6a1ea5ff17ee3e78bab22921' ],
+  productOrderId: [ '6960eac0c941646b7a8b3e68' ],
+  message: 'Order Placed Successfully'
+}

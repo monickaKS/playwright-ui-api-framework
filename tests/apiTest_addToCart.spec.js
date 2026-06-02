@@ -20,7 +20,7 @@ const payloadCart={
     }
 }
 
-test("API test case", async({page})=>{
+test("@smoke API test case", async({page})=>{
      
     const apiContextLogin= await request.newContext();
     const apiUtils = new APIUtils(apiContextLogin);
