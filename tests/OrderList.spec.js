@@ -1,6 +1,6 @@
 import {test, expect} from '@playwright/test';
 import OrderID from '../testdata/OrderID.json';
-test("Order List",async({page}) =>{
+test("@smoke Order List",async({page}) =>{
     await page.goto("https://rahulshettyacademy.com/client");
     await page.locator("#userEmail").fill("monicka0810@gmail.com");
     await page.locator("#userPassword").fill("Aaradhya@3101");
