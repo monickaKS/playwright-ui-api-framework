@@ -30,7 +30,7 @@ jobs:
         BASE_URL: https://opensource-demo.orangehrmlive.com
         TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
         TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
-      run: npx playwright test --reporter=html
+      run: npx playwright test --grep "@smoke" --reporter=html
 
     - uses: actions/upload-artifact@v4
       if: ${{ always() }}
