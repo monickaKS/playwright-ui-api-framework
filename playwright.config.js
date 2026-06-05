@@ -29,6 +29,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 
    [
+    ['html'],
     ['list'],
     ['allure-playwright']
   ],
@@ -40,7 +41,7 @@ export default defineConfig({
     // baseURL: 'http://localhost:3000',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
    //baseURL: process.env.BASE_URL ,/*from dotenv*/
     baseURL: process.env.BASE_URL , /*from system environment variable*/
    storageState: 'state.json',
