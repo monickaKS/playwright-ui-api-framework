@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-test('Slider validation',async({page})=>{
+test('@smoke Slider validation',async({page})=>{
     await page.goto("https://letcode.in/");
     await page.getByText("Work-Space").click();
     await page.getByRole('link', { name: " AUI - 5 " }).click();

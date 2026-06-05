@@ -10,7 +10,7 @@ const createOrderPayload ={
     ]
 
 }
-test('Create Order',async({page})=>{
+test('@smoke Create Order',async({page})=>{
    const apiContextLogin= await request.newContext();
     const apiUtils = new APIUtils(apiContextLogin);
     const token = await apiUtils.getToken();
