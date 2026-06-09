@@ -1,0 +1,382 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic:
+    - generic:
+      - generic [ref=e4]:
+        - group "Country" [ref=e7]:
+          - generic [ref=e8]: Country
+          - status
+          - textbox "Type to Select" [ref=e9]
+        - generic [ref=e10]:
+          - link "Free Access to InterviewQues/ResumeAssistance/Material" [ref=e11] [cursor=pointer]:
+            - /url: https://rahulshettyacademy.com/#/documents-request
+          - generic [ref=e12]:
+            - generic:
+              - list
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - list [ref=e19]:
+              - listitem [ref=e20]:
+                - link "Flights" [ref=e21] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e23]: Flights
+              - listitem [ref=e24]:
+                - link "Hotels" [ref=e25] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e27]: Hotels
+              - listitem [ref=e28]:
+                - link "Holiday Packages" [ref=e29] [cursor=pointer]:
+                  - /url: javascript:void(0);
+                  - generic [ref=e31]: Holiday Packages
+              - listitem [ref=e32]:
+                - link "Flight Status" [ref=e33] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e35]: Flight Status
+              - listitem [ref=e36]:
+                - link "Check-In" [ref=e37] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e39]: Check-In
+              - listitem [ref=e40]:
+                - link "Manage Booking" [ref=e41] [cursor=pointer]:
+                  - /url: "#"
+                  - generic [ref=e43]: Manage Booking
+            - generic [ref=e45]:
+              - generic [ref=e46]:
+                - table [ref=e48]:
+                  - rowgroup [ref=e49]:
+                    - row "One Way Round Trip Multicity" [ref=e50]:
+                      - cell "One Way" [ref=e51]:
+                        - radio "One Way" [checked] [ref=e52]
+                        - generic [ref=e53]: One Way
+                      - cell "Round Trip" [ref=e54]:
+                        - radio "Round Trip" [ref=e55]
+                        - generic [ref=e56]: Round Trip
+                      - cell "Multicity" [ref=e57]:
+                        - radio "Multicity" [ref=e58]
+                        - generic [ref=e59]: Multicity
+                - generic [ref=e60]:
+                  - generic [ref=e61]:
+                    - generic [ref=e62]:
+                      - generic [ref=e63]: "*"
+                      - text: FROM
+                    - textbox [ref=e65] [cursor=pointer]: Chennai (MAA)
+                  - generic [ref=e67]:
+                    - generic [ref=e68]:
+                      - generic [ref=e69]: "*"
+                      - text: TO
+                    - textbox [active] [ref=e71] [cursor=pointer]
+                    - table [ref=e74]:
+                      - rowgroup [ref=e75]:
+                        - row [ref=e76]:
+                          - cell [ref=e77]
+                          - cell [ref=e78]
+                          - cell [ref=e79]
+                        - row "India Adampur (AIP) Ahmedabad (AMD) Amritsar (ATQ) Bagdogra (IXB) Belagavi (IXG) Bengaluru (BLR) Bhopal (BHO) Coimbatore (CJB) Dehradun (DED) Delhi (DEL) Dharamshala (DHM) Dibrugarh (DIB) Durgapur (RDP) Goa (GOI) Gorakhpur (GOP) Guwahati (GAU) Gwalior (GWL) Hubli (HBX) Hyderabad (HYD) Jabalpur (JLR) Jaipur (JAI) Jaisalmer (JSA) Jammu (IXJ) Jharsuguda (JRG) Jodhpur (JDH) Kanpur (KNU) Kishangarh (KQH) Kochi (COK) Kolkata (CCU) Kozhikode (CCJ) Leh (IXL) Madurai (IXM) Mangaluru (IXE) Mumbai (BOM) Patna (PAT) Porbandar (PBD) Port Blair (IXZ) Pune (PNQ) Shirdi (SAG) Silchar (IXS) Srinagar (SXR) Surat (STV) Thiruvananthapuram (TRV) Tuticorin (TCR) Udaipur (UDR) Varanasi (VNS) Vijayawada (VGA) Vishakhapatnam (VTZ) International Bangkok (BKK) Colombo (CMB) Dhaka (DAC) Dubai, All Airports(DWC) (DXB) Hong Kong,Intl Apt, SAR China (HKG) Jeddah (JED) Kabul (KBL) Male (MLE) Muscat (MCT)" [ref=e80]:
+                          - cell [ref=e81]
+                          - cell "India Adampur (AIP) Ahmedabad (AMD) Amritsar (ATQ) Bagdogra (IXB) Belagavi (IXG) Bengaluru (BLR) Bhopal (BHO) Coimbatore (CJB) Dehradun (DED) Delhi (DEL) Dharamshala (DHM) Dibrugarh (DIB) Durgapur (RDP) Goa (GOI) Gorakhpur (GOP) Guwahati (GAU) Gwalior (GWL) Hubli (HBX) Hyderabad (HYD) Jabalpur (JLR) Jaipur (JAI) Jaisalmer (JSA) Jammu (IXJ) Jharsuguda (JRG) Jodhpur (JDH) Kanpur (KNU) Kishangarh (KQH) Kochi (COK) Kolkata (CCU) Kozhikode (CCJ) Leh (IXL) Madurai (IXM) Mangaluru (IXE) Mumbai (BOM) Patna (PAT) Porbandar (PBD) Port Blair (IXZ) Pune (PNQ) Shirdi (SAG) Silchar (IXS) Srinagar (SXR) Surat (STV) Thiruvananthapuram (TRV) Tuticorin (TCR) Udaipur (UDR) Varanasi (VNS) Vijayawada (VGA) Vishakhapatnam (VTZ) International Bangkok (BKK) Colombo (CMB) Dhaka (DAC) Dubai, All Airports(DWC) (DXB) Hong Kong,Intl Apt, SAR China (HKG) Jeddah (JED) Kabul (KBL) Male (MLE) Muscat (MCT)" [ref=e82]:
+                            - generic:
+                              - link:
+                                - /url: "#"
+                            - generic:
+                              - generic:
+                                - heading "India" [level=3] [ref=e83]
+                                - generic:
+                                  - list [ref=e84]:
+                                    - listitem [ref=e85]:
+                                      - link "Adampur (AIP)" [ref=e86] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e87]:
+                                      - link "Ahmedabad (AMD)" [ref=e88] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e89]:
+                                      - link "Amritsar (ATQ)" [ref=e90] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e91]:
+                                      - link "Bagdogra (IXB)" [ref=e92] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e93]:
+                                      - link "Belagavi (IXG)" [ref=e94] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e95]:
+                                      - link "Bengaluru (BLR)" [ref=e96] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e97]:
+                                      - link "Bhopal (BHO)" [ref=e98] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e99]:
+                                      - link "Coimbatore (CJB)" [ref=e100] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e101]:
+                                      - link "Dehradun (DED)" [ref=e102] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e103]:
+                                      - link "Delhi (DEL)" [ref=e104] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e105]:
+                                      - link "Dharamshala (DHM)" [ref=e106] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e107]:
+                                      - link "Dibrugarh (DIB)" [ref=e108] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e109]:
+                                    - listitem [ref=e110]:
+                                      - link "Durgapur (RDP)" [ref=e111] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e112]:
+                                      - link "Goa (GOI)" [ref=e113] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e114]:
+                                      - link "Gorakhpur (GOP)" [ref=e115] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e116]:
+                                      - link "Guwahati (GAU)" [ref=e117] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e118]:
+                                      - link "Gwalior (GWL)" [ref=e119] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e120]:
+                                      - link "Hubli (HBX)" [ref=e121] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e122]:
+                                      - link "Hyderabad (HYD)" [ref=e123] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e124]:
+                                      - link "Jabalpur (JLR)" [ref=e125] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e126]:
+                                      - link "Jaipur (JAI)" [ref=e127] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e128]:
+                                      - link "Jaisalmer (JSA)" [ref=e129] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e130]:
+                                      - link "Jammu (IXJ)" [ref=e131] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e132]:
+                                      - link "Jharsuguda (JRG)" [ref=e133] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e134]:
+                                    - listitem [ref=e135]:
+                                      - link "Jodhpur (JDH)" [ref=e136] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e137]:
+                                      - link "Kanpur (KNU)" [ref=e138] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e139]:
+                                      - link "Kishangarh (KQH)" [ref=e140] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e141]:
+                                      - link "Kochi (COK)" [ref=e142] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e143]:
+                                      - link "Kolkata (CCU)" [ref=e144] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e145]:
+                                      - link "Kozhikode (CCJ)" [ref=e146] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e147]:
+                                      - link "Leh (IXL)" [ref=e148] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e149]:
+                                      - link "Madurai (IXM)" [ref=e150] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e151]:
+                                      - link "Mangaluru (IXE)" [ref=e152] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e153]:
+                                      - link "Mumbai (BOM)" [ref=e154] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e155]:
+                                      - link "Patna (PAT)" [ref=e156] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e157]:
+                                      - link "Porbandar (PBD)" [ref=e158] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e159]:
+                                    - listitem [ref=e160]:
+                                      - link "Port Blair (IXZ)" [ref=e161] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e162]:
+                                      - link "Pune (PNQ)" [ref=e163] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e164]:
+                                      - link "Shirdi (SAG)" [ref=e165] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e166]:
+                                      - link "Silchar (IXS)" [ref=e167] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e168]:
+                                      - link "Srinagar (SXR)" [ref=e169] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e170]:
+                                      - link "Surat (STV)" [ref=e171] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e172]:
+                                      - link "Thiruvananthapuram (TRV)" [ref=e173] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e174]:
+                                      - link "Tuticorin (TCR)" [ref=e175] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e176]:
+                                      - link "Udaipur (UDR)" [ref=e177] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e178]:
+                                      - link "Varanasi (VNS)" [ref=e179] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e180]:
+                                      - link "Vijayawada (VGA)" [ref=e181] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e182]:
+                                      - link "Vishakhapatnam (VTZ)" [ref=e183] [cursor=pointer]:
+                                        - /url: "#"
+                              - generic:
+                                - heading "International" [level=3] [ref=e184]
+                                - generic:
+                                  - list [ref=e185]:
+                                    - listitem [ref=e186]:
+                                      - link "Bangkok (BKK)" [ref=e187] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e188]:
+                                      - link "Colombo (CMB)" [ref=e189] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e190]:
+                                      - link "Dhaka (DAC)" [ref=e191] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e192]:
+                                    - listitem [ref=e193]:
+                                      - link "Dubai, All Airports(DWC) (DXB)" [ref=e194] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e195]:
+                                      - link "Hong Kong,Intl Apt, SAR China (HKG)" [ref=e196] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e197]:
+                                      - link "Jeddah (JED)" [ref=e198] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e199]:
+                                    - listitem [ref=e200]:
+                                      - link "Kabul (KBL)" [ref=e201] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e202]:
+                                      - link "Male (MLE)" [ref=e203] [cursor=pointer]:
+                                        - /url: "#"
+                                    - listitem [ref=e204]:
+                                      - link "Muscat (MCT)" [ref=e205] [cursor=pointer]:
+                                        - /url: "#"
+                                  - list [ref=e206]
+                          - cell [ref=e207]
+                        - row [ref=e208]:
+                          - cell [ref=e209]
+                          - cell [ref=e210]
+                          - cell [ref=e211]
+                - generic [ref=e213]:
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: "*"
+                    - text: Depart date
+                  - textbox [ref=e216]: 05/05
+                  - button [ref=e217] [cursor=pointer]
+                  - generic [ref=e218]: Sun, May 05 2019
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Return date
+                  - textbox [ref=e221]: 12/05
+                  - button [ref=e222] [cursor=pointer]
+                  - generic [ref=e223]: Sun, May 12 2019
+                - generic [ref=e224]:
+                  - text: PASSENGERS
+                  - generic [ref=e225] [cursor=pointer]: 1 Adult
+                - generic [ref=e227]:
+                  - generic [ref=e228]: Currency
+                  - combobox [ref=e229]:
+                    - option "Select"
+                    - option "INR" [selected]
+                    - option "AED"
+                    - option "USD"
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - checkbox "Family and Friends" [ref=e232]
+                    - generic [ref=e233]: Family and Friends
+                  - generic [ref=e234]:
+                    - checkbox "Senior Citizen" [ref=e235]
+                    - generic [ref=e236]: Senior Citizen
+                  - generic [ref=e238]:
+                    - checkbox "Indian Armed Forces" [ref=e239]
+                    - generic [ref=e240]: Indian Armed Forces
+                  - generic [ref=e241]:
+                    - checkbox "Student" [ref=e242]
+                    - generic [ref=e243]: Student
+                  - generic [ref=e244]:
+                    - checkbox "Unaccompanied Minor" [ref=e245]
+                    - generic [ref=e246]: Unaccompanied Minor
+                  - link "Special Assistance" [ref=e248] [cursor=pointer]:
+                    - /url: "javascript: void(0);"
+                - button "Search" [ref=e251] [cursor=pointer]
+              - link:
+                - /url: "#"
+              - link:
+                - /url: "#"
+              - link:
+                - /url: "#"
+              - link:
+                - /url: "#"
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - generic:
+                - link:
+                  - /url: qaclickjet-mumbai-terminal2.html
+                - link:
+                  - /url: qaclickjet-delhi-terminal2.html
+            - link [ref=e256] [cursor=pointer]:
+              - /url: "#"
+            - generic [ref=e257]:
+              - generic:
+                - link:
+                  - /url: "#"
+                - link:
+                  - /url: "#"
+              - img "350 x 150 pic" [ref=e258]
+        - generic [ref=e265]:
+          - generic [ref=e269]:
+            - link "Flights":
+              - /url: "#"
+              - generic [ref=e270] [cursor=pointer]: Flights
+            - link:
+              - /url: "#"
+          - generic [ref=e275]:
+            - link "Book Cab":
+              - /url: Cargo.html
+              - generic [ref=e276] [cursor=pointer]: Book Cab
+            - link:
+              - /url: Cargo.html
+          - generic [ref=e281]:
+            - link "Rewards":
+              - /url: "#"
+              - generic [ref=e282] [cursor=pointer]: Rewards
+            - link:
+              - /url: "#"
+          - generic [ref=e287]:
+            - link "Tax Docs":
+              - /url: javascript:void(0);
+              - generic [ref=e288] [cursor=pointer]: Tax Docs
+            - link:
+              - /url: javascript:void(0);
+          - generic [ref=e293]:
+            - link "Passport Rules":
+              - /url: "#"
+              - generic [ref=e294] [cursor=pointer]: Passport Rules
+            - link:
+              - /url: "#"
+          - generic [ref=e299]:
+            - link "Corporate Traveller":
+              - /url: "#"
+              - generic [ref=e300] [cursor=pointer]: Corporate Traveller
+            - link:
+              - /url: "#"
+          - generic [ref=e305]:
+            - link "Change Flight or Refund":
+              - /url: "#"
+              - generic [ref=e306] [cursor=pointer]: Change Flight or Refund
+            - link:
+              - /url: "#"
+```
