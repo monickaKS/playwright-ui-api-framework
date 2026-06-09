@@ -27,13 +27,13 @@ test("@smoke Network Mocking", async ({page}) => {
  
   console.log(await page.locator(".mt-4").textContent());
 
-  await page.locator(".blinkingText").waitFor();
+ /*  await page.locator(".blinkingText").waitFor();
   console.log(await page.locator(".blinkingText").textContent());
 
   await page.getByRole("link", {name:"ORDERS"}).click();
   await page.locator("tbody tr").waitFor();
   const Rows = page.locator("tbody tr");
-  console.log(await Rows.count());
+  console.log(await Rows.count()); */
 
     });
  

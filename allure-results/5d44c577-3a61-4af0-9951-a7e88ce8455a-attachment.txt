@@ -1,0 +1,34 @@
+[
+  ' Adampur (AIP) Ahmedabad (AMD) Amritsar (ATQ) Bagdogra (IXB) Belagavi (IXG) Bengaluru (BLR) Bhopal (BHO) Chennai (MAA) Coimbatore (CJB) Dehradun (DED) Delhi (DEL) Dharamshala (DHM) Dibrugarh (DIB) Durgapur (RDP)',
+  ' Goa (GOI) Gorakhpur (GOP) Guwahati (GAU) Gwalior (GWL) Hubli (HBX) Hyderabad (HYD) Jabalpur (JLR) Jaipur (JAI) Jaisalmer (JSA) Jammu (IXJ) Jharsuguda (JRG) Jodhpur (JDH) Kandla (IXY) Kanpur (KNU)',
+  ' Kishangarh (KQH) Kochi (COK) Kolkata (CCU) Kozhikode (CCJ) Lakhimpur (IXI) Leh (IXL) Madurai (IXM) Mangaluru (IXE) Mumbai (BOM) Pakyong (PYG) Patna (PAT) Pondicherry (PNY) Porbandar (PBD) Port Blair (IXZ)',
+  ' Pune (PNQ) Ranchi (IXR) Shirdi (SAG) Silchar (IXS) Srinagar (SXR) Surat (STV) Thiruvananthapuram (TRV) Tirupati (TIR) Tuticorin (TCR) Udaipur (UDR) Varanasi (VNS) Vijayawada (VGA) Vishakhapatnam (VTZ)',
+  ' Bangkok (BKK) Colombo (CMB) Dhaka (DAC)',
+  ' Dubai, All Airports(DWC) (DXB) Hong Kong,Intl Apt, SAR China (HKG) Jeddah (JED)',
+  ' Kabul (KBL) Male (MLE) Muscat (MCT)',
+  '',
+  '\n' +
+    '                                Persons suffering from any disease, which is believed to be actively contagious and communicable.\n' +
+    '                                Persons whose medical condition may develop an adverse physical condition which could have an adverse effect during flight and on safety and emergency evacuation procedure \n' +
+    '\n' +
+    '                            ',
+  '\n' +
+    '                                Requirement of oxygen inflight\n' +
+    '                                Recent major illness\n' +
+    '                                Recent surgery or hospitalisation\n' +
+    '                                Use of medical equipment inflight\n' +
+    '                                Requirement of stretcher\n' +
+    '                                Newborns under  7 days\n' +
+    '\n' +
+    '                            ',
+  '\n' +
+    '                                Reduced Mobility – wheel chair users (Old age/ Arthritis/ physical disability – loss of limbs, paralysis/ neuromuscular disorders – multiple sclerosis, muscular dystrophy)\n' +
+    '                                Visually Impaired – vision loss to such extent where it requires additional support. \n' +
+    '                                Hearing Disabled – partial or total inability to hear\n' +
+    '                                Intellectual/ Learning Disabilities –  IQ less than 70; due to mental/ physical impairments, for ex Down’s syndrome, cerebral palsy etc\n' +
+    '                                Requirement of stretcher\n' +
+    '                                Newborns under  7 days\n' +
+    '\n' +
+    '                            '
+]
+11
