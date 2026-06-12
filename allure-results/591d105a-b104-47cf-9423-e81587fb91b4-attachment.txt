@@ -1,0 +1,2 @@
+0
+locator('ul li')got selected

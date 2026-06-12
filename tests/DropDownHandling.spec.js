@@ -4,8 +4,10 @@ import Flight from '../testData/Flight.json';
 test('Handle Dropdown', async({page})=>{
    const dropDown = new DropDown({page});
    await dropDown.gotoURL();
-   await dropDown.selectDeparture(Flight.DepartureCity);
-   await dropDown.selectArrival(Flight.ArrivalCity);
+   await dropDown.ClickDeparture();
+   await dropDown.selectCity(Flight.DepartureCity)
+   await dropDown.ClickArrival();
+   await dropDown.selectCity(Flight.ArrivalCity);
 
 
 })

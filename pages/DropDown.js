@@ -15,9 +15,16 @@ export class DropDown {
          await this.page.goto("https://rahulshettyacademy.com/dropdownsPractise/");
         expect(this.page).toHaveTitle("QAClickJet - Flight Booking for Domestic and International, Cheap Air Tickets")
     }
-
-    async selectDeparture(cityName){
+    async ClickDeparture(){
         await this.Departure.click();
+    }
+
+    async ClickArrival(){
+        await this.Arrival.click();
+    }
+
+    async selectCity(cityName){
+        /* await this.Departure.click();
          let cities = await this.page.locator("tbody tr ul li a")
          let countName = await this.page.locator("tbody tr ul li a").allTextContents()
          let citiesCount =  await cities.count()
@@ -32,13 +39,16 @@ export class DropDown {
              break;
              
             
-        }
+        } */
+        await this.citiesList.filter({hasText: cityName}).first().click();
+             
+
       }
 
       
-    }
+    
 
-    async selectArrival(cityNameArrival){
+    /* async selectArrival(cityNameArrival){
         await this.Arrival.click();
          let cities1 = await this.page.locator("#glsctl00_mainContent_ddl_destinationStation1_CTNR#glsctl00_mainContent_ddl_destinationStation1_CTNR ul li a")
          let countName1 = await cities1.allTextContents()
@@ -58,7 +68,7 @@ export class DropDown {
             
         }
       }
-    }
+    } */
 
    
 

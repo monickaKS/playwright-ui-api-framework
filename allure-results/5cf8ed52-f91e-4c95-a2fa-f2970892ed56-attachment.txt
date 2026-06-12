@@ -1,0 +1,2 @@
+30
+Selected locator('ul li div[role ="option"] span')

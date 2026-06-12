@@ -1,0 +1,7 @@
+Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 7224,
+  [Symbol(trigger_async_id_symbol)]: 7223,
+  [Symbol(kResourceStore)]: undefined
+}
+locator('ul li')got selected

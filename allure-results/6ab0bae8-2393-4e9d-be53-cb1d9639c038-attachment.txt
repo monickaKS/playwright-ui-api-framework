@@ -1,0 +1,2 @@
+4
+selected locator('ul li')
